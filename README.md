@@ -1,5 +1,5 @@
 # magical-marai-music-player
-##### 環境設置
+### 環境設置
 **請確保你有下載node.js最新版本**
 - git clone到你們的資料夾
 - 在你們cmd或是terminal上打下下列指令：
