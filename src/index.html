@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Miku</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="timeline-container">
+        <div class="timeline-progress"></div>
+    </div>
+    
+    <div id="metadata" class="metadata-container">
+        <p id="songTitle">歌名：<span>-</span></p>
+        <p id="artist">作者：<span>-</span></p>
+    </div>
+
+    <div id="beat"></div>
+
+    <div id="main"></div>
+
+    <div id="footer-container">
+            <div id="controls" class="controls-container">
+                <button id="play-btn">播放</button>
+                <button id="stop-btn" disabled>停止</button>
+                <button id="prev-btn" disabled>上一首</button>
+                <button id="next-btn" disabled>下一首</button>
+                <button id="rewind-btn" disabled>回到歌曲開頭</button>
+            </div>
+    </div>
+
+    <div id="media", class="media-container"></div>
+
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
